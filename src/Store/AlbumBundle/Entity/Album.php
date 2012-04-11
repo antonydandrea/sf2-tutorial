@@ -11,27 +11,27 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Album
 {
-	/**
-	 * @ORM\Id
-	 * @ORM\Column(type="integer")
-	 * @ORM\GeneratedValue(strategy="AUTO")
-	 */
-	protected $id;
-	
-	/**
-	 * @ORM\Column(type="string", length=100)
-	 */
-	protected $name;
+    /**
+     * @ORM\Id
+     * @ORM\Column(type="integer")
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    protected $id;
+    
+    /**
+     * @ORM\Column(type="string", length=100)
+     */
+    protected $name;
 
-	/**
-	 * @ORM\Column(type="string", length=100)
-	 */
-	protected $author;
+    /**
+     * @ORM\Column(type="string", length=100)
+     */
+    protected $author;
 
-	/**
-	 * @ORM\Column(type="text")
-	 */
-	protected $description;
+    /**
+     * @ORM\Column(type="text")
+     */
+    protected $description;
 
     /**
      * Get id
@@ -101,6 +101,6 @@ class Album
     public function getDescription()
     {
         return $this->description;
-	}
+    }
 }
 
