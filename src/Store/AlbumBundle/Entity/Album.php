@@ -101,6 +101,6 @@ class Album
     public function getDescription()
     {
         return $this->description;
-    }
+	}
 }
 
