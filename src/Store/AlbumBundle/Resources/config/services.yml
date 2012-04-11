@@ -1,0 +1,7 @@
+parameters:
+#    store_album.example.class: Store\AlbumBundle\Example
+
+services:
+#    store_album.example:
+#        class: %store_album.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

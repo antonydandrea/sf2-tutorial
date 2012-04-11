@@ -1,0 +1,3 @@
+StoreAlbumBundle_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: StoreAlbumBundle:Default:index }
